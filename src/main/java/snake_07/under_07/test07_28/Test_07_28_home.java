@@ -8,7 +8,7 @@ public class Test_07_28_home
          .price( 980 )
          .tax( 1.1 );
 
-    })
+    });
 
     System.out.println( "Hello World_1" );
     System.out.println( "Hello World_2" );
