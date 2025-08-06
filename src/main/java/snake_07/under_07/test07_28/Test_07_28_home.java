@@ -3,6 +3,10 @@ public class Test_07_28_home
   public static void main( String[] args )
   {
     Calc28 calc = new Calc28( "Poly-morphism" );
+    calc.display( () -> {
+      System.out.println( "関心事を記述" );
+
+    });
 
     Item28.save( item -> {
      item.id( "掛け算" )
@@ -17,6 +21,5 @@ public class Test_07_28_home
     });
 
     System.out.println( "Hello World_1" );
-    System.out.println( "Hello World_2" );
   }
 }
