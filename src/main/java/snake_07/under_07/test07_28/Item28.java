@@ -1,3 +1,5 @@
+package main.java.snake_07.under_07.test07_28;
+
 import java.util.function.Consumer;
 import demo_06.Interface;
 

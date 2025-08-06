@@ -1,3 +1,5 @@
+package main.java.snake_07.under_07.test07_28;
+
 import demo_06.Interface;
 
 public class Calc28 extends Item28
