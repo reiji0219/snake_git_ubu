@@ -4,7 +4,7 @@ public class Calc28 extends Item28
 
   public Calc28( String name ){
     super();
-    this.name; = name;
+    this.name = name;
    }
 
   public void display(){

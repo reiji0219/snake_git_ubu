@@ -1,7 +1,13 @@
 import java.util.function.Consumer;
+import demo_06.Interface;
 
-public class Item28
+public class Item28 implements Interface
 {
+  public void execute(){
+    indi( "Lambda" );
+
+  }
+
   private String id;
   private String name;
   private double price;
