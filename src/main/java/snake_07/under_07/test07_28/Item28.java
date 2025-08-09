@@ -1,11 +1,18 @@
+import demo_06.Interface;
 import java.util.function.Consumer;
 
-public class Item28
+public class Item28 implements Interface
 {
+  public void execute(){
+    indi( "Lambda" );
+
+  }
+
   private String id;
   private String name;
   private double price;
   private double tax;
+  private Calc28 calc;
 
 
   public Item28 id( String id ){
@@ -28,18 +35,33 @@ public class Item28
    return this;
   }
 
+  public Item28 calc( Calc28 calc ){
+   this.calc = calc;
+   return this;
+  }
+
   public static void save( Consumer<Item28> con ){
     Item28 item = new Item28();
     con.accept( item );
     indi( "save :" + item );
   }
 
+  public String getId(){
+    return id;
+  }
 
+  public void display(){
+    indi( "表示内容 :" + name );
 
+    double clacInTax = clacTax( price, tax );
+      indi( "税込み価格は" + clacInTax + "円です" );
 
+    calc.display();
+  }
 
-
-
+  public static double clacTax( double price, double tax ){
+   return( price * tax );
+  }
 
   public String toString(){
     return( "Item28 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );

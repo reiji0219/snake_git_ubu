@@ -2,16 +2,14 @@ public class Test_07_28_home
 {
   public static void main( String[] args )
   {
-    Item28.save( item -> {
-     item.id( "掛け算" )
-         .name( "税込み価格" )
-         .price( 980 )
-         .tax( 1.1 );
+    Calc28 calc = new Calc28( "Poly-morphism" );
+    calc.process( () -> {
+      System.out.println( "関心事を記述" );
 
-    })
+      Interface save = Calc28.create();
+        save.execute();
 
-    System.out.println( "Hello World_1" );
-    System.out.println( "Hello World_2" );
-    System.out.println( "Hello World_3" );
+      System.out.println( "Hello World_1" );
+    });
   }
 }
