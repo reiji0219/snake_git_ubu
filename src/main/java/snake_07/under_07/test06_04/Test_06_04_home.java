@@ -1,4 +1,4 @@
- package main.java.snake_07.under_07.test06_04;
+package main.java.snake_07.under_07.test06_04;
 
 import demo_06.Interface;
 
