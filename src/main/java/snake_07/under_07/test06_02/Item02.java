@@ -1,9 +1,14 @@
 package main.java.snake_07.under_07.test06_02;
 
+import demo_06.Interface;
 import java.util.function.Consumer;
 
-public class Item02
+public class Item02 implements Interface
 {
+  public void execute(){
+    indi( "Lambda" );
+  }
+
   private String id;
   private String name;
   private double price;
