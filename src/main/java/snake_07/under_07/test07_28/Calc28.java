@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+package main.java.snake_07.under_07.test07_28;
+
+import demo_06.Interface;
+
+>>>>>>> origin/master
 public class Calc28 extends Item28
 {
   private String name;
@@ -12,13 +19,21 @@ public class Calc28 extends Item28
       Calc28 calc = new Calc28( "Poly-morphism" );
 
       Item28.save( item -> {
+<<<<<<< HEAD
         item.id( "掛け算" )
+=======
+       item.id( "掛け算" )
+>>>>>>> origin/master
            .name( "税込み価格" )
            .price( 980 )
            .tax( 1.1 )
            .calc( calc );
 
         System.out.println( "計算式 :" + item.getId() );
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
         item.display();
       });
     };

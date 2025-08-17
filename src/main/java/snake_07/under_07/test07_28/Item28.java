@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 import demo_06.Interface;
 import java.util.function.Consumer;
 
+=======
+package main.java.snake_07.under_07.test07_28;
+
+import java.util.function.Consumer;
+import demo_06.Interface;
+
+>>>>>>> origin/master
 public class Item28 implements Interface
 {
   public void execute(){
@@ -53,14 +61,24 @@ public class Item28 implements Interface
   public void display(){
     indi( "表示内容 :" + name );
 
+<<<<<<< HEAD
     double clacInTax = clacTax( price, tax );
       indi( "税込み価格は" + clacInTax + "円です" );
+=======
+    double calcInTax = calcTax( price, tax );
+      indi( "税込み価格は" + calcInTax + "円です" );
+>>>>>>> origin/master
 
     calc.display();
   }
 
+<<<<<<< HEAD
   public static double clacTax( double price, double tax ){
    return( price * tax );
+=======
+  public static double calcTax( double price, double tax ){
+    return( price * tax );
+>>>>>>> origin/master
   }
 
   public String toString(){
