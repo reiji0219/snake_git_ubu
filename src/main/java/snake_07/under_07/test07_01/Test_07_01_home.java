@@ -1,3 +1,5 @@
+package main/java/snake07/under07;
+
 public class Test_07_01_home
 {
   public static void main( String[] args )

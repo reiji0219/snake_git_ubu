@@ -1,3 +1,5 @@
+package main/java/snake07/under07;
+
 import java.util.function.Consumer;
 
 public class Item01
