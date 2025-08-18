@@ -1,39 +1,24 @@
-<<<<<<< HEAD
-=======
-package main.java.snake_07.under_07.test07_28;
-
-import demo_06.Interface;
-
->>>>>>> origin/master
-public class Calc28 extends Item28
+public class Calc29 extends Item29
 {
   private String name;
 
-  public Calc28( String name ){
+  public Calc29( String name ){
     super();
     this.name = name;
   }
 
   public static Interface create(){
     return() -> {
-      Calc28 calc = new Calc28( "Poly-morphism" );
+      Calc29 calc = new Calc29( "Poly-morphism" );
 
-      Item28.save( item -> {
-<<<<<<< HEAD
+      Item29.save( item -> {
         item.id( "掛け算" )
-=======
-       item.id( "掛け算" )
->>>>>>> origin/master
            .name( "税込み価格" )
            .price( 980 )
            .tax( 1.1 )
            .calc( calc );
 
         System.out.println( "計算式 :" + item.getId() );
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
         item.display();
       });
     };
