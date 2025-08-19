@@ -1,4 +1,4 @@
-package main/java/snake07/under07;
+package main.java.snake_07.under_07.test07_01;
 
 public class Test_07_01_home
 {
