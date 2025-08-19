@@ -1,3 +1,7 @@
+package main.java.snake_07.under_07.test07_29;
+
+import demo_06.Interface;
+
 public class Calc29 extends Item29
 {
   private String name;

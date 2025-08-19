@@ -1,3 +1,7 @@
+package main.java.snake_07.under_07.test07_29;
+
+import demo_06.Interface;
+
 public class Test_07_29_home
 {
   public static void main( String[] args )
