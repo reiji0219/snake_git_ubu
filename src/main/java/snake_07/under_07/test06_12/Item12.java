@@ -1,4 +1,4 @@
-package main/java/snake_07/under_07/test06_12/
+package main.java.snake_07.under_07.test06_12;
 
 public class Item12
 {
