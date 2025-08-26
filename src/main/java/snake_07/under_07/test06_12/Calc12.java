@@ -25,6 +25,8 @@ public class Calc12 extends Item12
         System.out.println( "計算式" + item.getId() );
 
         item.display();
+
+        item.execute();
       });
     };
   }
