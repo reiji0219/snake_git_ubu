@@ -1,6 +1,8 @@
-public class Calc12 extends Item12
+package main.java.snake_07.under_07.test06_12;
 
 import demo_06.Interface;
+
+public class Calc12 extends Item12
 {
   private String name;
 
