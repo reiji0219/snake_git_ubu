@@ -1,3 +1,5 @@
+package main.java.snake_07.under_07.test07_03;
+
 public class Item03
 {
   private String id;
