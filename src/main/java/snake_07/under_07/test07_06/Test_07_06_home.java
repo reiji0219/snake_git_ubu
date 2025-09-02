@@ -1,6 +1,6 @@
-package main.java.snake_07.under_07.test07_05;
+package main.java.snake_07.under_07.test07_06;
 
-public class Test_07_05_home
+public class Test_07_06_home
 {
   public static void main( String[] args )
   {
@@ -12,4 +12,3 @@ public class Test_07_05_home
     System.out.println( "Hello World_4" );
   }
 }
-
