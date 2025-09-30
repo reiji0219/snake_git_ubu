@@ -1,6 +1,6 @@
 package main.java.snake_07.under_07.test06_30;
 
-public class Test06_30_home
+public class Test_06_30_home
 {
   public static void main( String[] args )
   {
