@@ -1,4 +1,0 @@
-Main-Class: main.java.snake_07.under_07.test06_29.Test_06_29_home 
-Class-Path: demo_06.Interface 
- 
-
