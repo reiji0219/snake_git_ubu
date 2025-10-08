@@ -1,5 +1,7 @@
 package main.java.snake_07.under_07.test06_30;
 
+import java.util.function.Consumer;
+
 public class Item30
 {
   private String id;
@@ -28,6 +30,11 @@ public class Item30
     return this;
   }
 
+  public static void save( Consumer<Item30> con ){
+    Item30 item = new Item30();
+    con.accept( item );
+    indi( "save :" + item );
+  }
 
 
 
@@ -36,7 +43,11 @@ public class Item30
 
 
 
+  public String toString(){
+    return( "Item30 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
+  }
 
-
-
+  public static void indi( String s0 ){
+    System.out.println( s0 );
+  }
 }
