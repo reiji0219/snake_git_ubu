@@ -1,10 +1,9 @@
-package main.java.snake_07.under_07.test07_16;
+package main.java.snake_07.under_07.test07_21;
 
-public class Test_07_16_home
+public class Test_07_21_home
 {
   public static void main( String[] args )
   {
-
 
 
     System.out.println( "Hello World_1" );
