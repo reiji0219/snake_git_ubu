@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: snake_01.src.main.java.snake.snake_03.under_03.Test_03_25_ho
- me
-Class-Path: snake_01.classes.snake_01.src.demo_06. snake_01.classes.snak
- e_01.src.demo_06.Interface.class 
-Created-By: 17.0.14 (Ubuntu)
-
