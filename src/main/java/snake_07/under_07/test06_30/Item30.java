@@ -36,12 +36,22 @@ public class Item30
     indi( "save :" + item );
   }
 
+  public String getId(){
+    return id;
+  }
 
+  public void display(){
+    indi( "表示内容 :" + name );
 
+    double calcInTax = calcTax( price, tax );
+      indi( "税込み価格は" + calcInTax + "円です" );
 
+    
+  }
 
-
-
+  public static double calcTax( double price, double tax ){
+    return( price * tax );
+  }
 
   public String toString(){
     return( "Item30 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
