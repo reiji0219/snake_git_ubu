@@ -1,21 +1,19 @@
 package main.java.snake_07.under_07.test06_30;
 
+import demo_06.Interface;
+
 public class Test_06_30_home
 {
   public static void main( String[] args )
   {
-    Item30.save( item -> {
-      item.id( "掛け算" )
-          .name( "税込み価格" )
-          .price( 980 )
-          .tax( 1.1 );
+    Calc30 calc = new Calc30( "Poly-morphism" );
+    calc.process( () -> {
+      System.out.println( "関心事を記述" );
 
-      System.out.println( "計算式 :" + item.getId() );
+      Interface save = Calc30.create();
+        save.execute();
 
-      item.display();
+      System.out.println( "Hello World_1" );
     });
-
-    System.out.println( "Hello World_1" );
-    System.out.println( "Hello World_2" );
   }
 }
