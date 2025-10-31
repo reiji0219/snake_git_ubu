@@ -12,7 +12,7 @@ public class Calc30 extends Item30
   }
 
   public static Interface create(){
-    return(){
+    return() ->{
       Calc30 calc = new Calc30( "Poly-morphism" );
 
       Item30.save( item -> {
@@ -32,7 +32,7 @@ public class Calc30 extends Item30
   }
 
   public void display(){
-    indi( name )
+    indi( name );
   }
 
   public void process( Interface inter ){
