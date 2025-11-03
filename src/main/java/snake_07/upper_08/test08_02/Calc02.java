@@ -1,5 +1,44 @@
 package main.java.snake_07.upper_08.test08_02;
 
-public class Calc02
+import demo_06.Interface;
+
+public class Calc02 extends Item02
 {
+  private String name;
+
+  public Calc02( String name ){
+    super();
+    this.name = name;
+  }
+
+  public staitc Interface create(){
+    return() -> {
+      Calc02 calc = new Calc02( "Poly-morphism" );
+
+      Item02.save( item -> {
+        item.id( "掛け算" )
+            .name( "税込み価格" )
+            .price( 980 )
+            .tax( 1.1 )
+            .calc( calc );
+
+        System.out.println( "計算式 :" + item.getId() );
+        item.display();
+
+        item.execute();
+      });
+    };
+  }
+
+  public void display(){
+    indi( name );
+  }
+
+  public void process( Interface intrer ){
+    indi( "start" );
+
+    intrer.execute();
+
+    indi( "end" );
+  }
 }
