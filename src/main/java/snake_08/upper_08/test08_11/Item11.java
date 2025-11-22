@@ -1,5 +1,7 @@
 package main.java.snake_08.upper_08.test08_11;
 
+import java.util.function.Consumer;
+
 public class Item11
 {
   private String id;
@@ -28,7 +30,11 @@ public class Item11
     return this;
   }
 
-  public static void 
+  public static void save( Consumer<Item11> con ){
+    Item11 item = new Item11();
+    con.accept( item );
+    indi( "save :" + item );
+  }
 
 
 
@@ -37,7 +43,9 @@ public class Item11
 
 
 
-
+  public String toString(){
+    return( "Item11 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
+  }
 
   public static void indi( String s0 ){
     System.out.println( s0 );
