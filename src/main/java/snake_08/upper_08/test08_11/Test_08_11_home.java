@@ -10,6 +10,5 @@ public class Test_08_11_home
     System.out.println( "Hello World_1" );
     System.out.println( "Hello World_2" );
     System.out.println( "Hello World_3" );
-    System.out.println( "Hello World_4" );
   }
 }
