@@ -1,4 +1,4 @@
-package main.java.snake_07.under_07.test06_30;
+package main.java.snake_08.under_07.test06_30;
 
 import demo_06.Interface;
 import java.util.function.Consumer;
