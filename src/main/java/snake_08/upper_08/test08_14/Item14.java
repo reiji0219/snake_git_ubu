@@ -1,5 +1,0 @@
-package main.java.snake_08.upper_08.test08_14;
-
-public class Item14
-{
-}
