@@ -1,9 +1,9 @@
-package main.java.snake_08.upper_09.test09_28;
+package main.java.snake_08.upper_09.test09_30;
 
 import demo_06.Interface;
 import java.util.function.Consumer;
 
-public class Item28 implements Interface
+public class Item30 implements Interface
 {
   public void execute(){
     indi( "Lambda" );
@@ -14,35 +14,35 @@ public class Item28 implements Interface
   private String name;
   private double price;
   private double tax;
-  private Calc28 calc;
+  private Calc30 calc;
 
-  public Item28 id( String id ){
+  public Item30 id( String id ){
     this.id = id;
     return this;
   }
 
-  public Item28 name( String name ){
+  public Item30 name( String name ){
     this.name = name;
     return this;
   }
 
-  public Item28 price( double price ){
+  public Item30 price( double price ){
     this.price = price;
     return this;
   }
 
-  public Item28 tax( double tax ){
+  public Item30 tax( double tax ){
     this.tax = tax;
     return this;
   }
 
-  public Item28 calc( Calc28 calc ){
+  public Item30 calc( Calc30 calc ){
     this.calc = calc;
     return this;
   }
 
-  public static void save( Consumer<Item28> con ){
-    Item28 item = new Item28();
+  public static void save( Consumer<Item30> con ){
+    Item30 item = new Item30();
     con.accept( item );
     indi( "save :" + item );
   }
@@ -65,7 +65,7 @@ public class Item28 implements Interface
   }
 
   public String toString(){
-    return( "Item28 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
+    return( "Item30 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
   }
 
   public static void indi( String s0 ){
