@@ -1,16 +1,16 @@
-package main.java.snake_08.upper_09.test09_28;
+package main.java.snake_08.upper_09.test09_30;
 
 import demo_06.Interface;
 
-public class Test_09_28_home
+public class Test_09_30_home
 {
   public static void main( String[] args )
   {
-    Calc28 calc = new Calc28( "Poly-morphism" );
-    calc.process( () ->  {
+    Calc30 calc = new Calc30( "Poly-morphism" );
+    calc.process( () -> {
       System.out.println( "関心事を記述" );
 
-      Interface save = Calc28.create();
+      Interface save = Calc30.create();
         save.execute();
 
       System.out.println( "Hello World_1" );

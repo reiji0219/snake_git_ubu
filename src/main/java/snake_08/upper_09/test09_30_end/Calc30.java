@@ -1,21 +1,21 @@
-package main.java.snake_08.upper_09.test09_28;
+package main.java.snake_08.upper_09.test09_30;
 
 import demo_06.Interface;
 
-public class Calc28 extends Item28
+public class Calc30 extends Item30
 {
   private String name;
 
-  public Calc28( String name ){
+  public Calc30( String name ){
     super();
     this.name = name;
   }
 
   public static Interface create(){
     return() -> {
-      Calc28 calc = new Calc28( "Poly-morphism" );
+      Calc30 calc = new Calc30( "Poly-morphism" );
 
-      Item28.save( item -> {
+      Item30.save( item -> {
         item.id( "掛け算" )
             .name( "税込み価格" )
             .price( 980 )
