@@ -1,5 +1,5 @@
-package main.java.snake_08.upper_10.test11_07;
+package main.java.snake_08.upper_11.test11_07;
 
-publiic class Test_11_07_home
+public class Test_11_07_home
 {
 }
