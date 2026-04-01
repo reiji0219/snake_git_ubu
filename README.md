@@ -31,9 +31,12 @@
 
 ## 📚 ファイル構成
 
-README.md                  # この説明ファイル
-Architecture_reiji.md      # 日本語版の完全仕様書
-Architecture_reiji_en.md   # 英語版の完全仕様書 
+- Architecture_reiji.md
+    - 日本語版の完全仕様書
+- Architecture_reiji_en.md
+    - 英語版の完全仕様書 
+- README.md 
+    - この説明ファイル
 
 ---
 
