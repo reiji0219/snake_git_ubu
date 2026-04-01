@@ -23,7 +23,6 @@
 - AI との対話品質の向上  
 - 将来の AI との連携のための基盤  
 - 技術的・哲学的価値観の整理  
-- 読み返してニヤニヤするための個人的アーカイブ  
 
 特に、AI に自分の価値観を正確に伝えるための  
 **「人格仕様書」** として機能します。
@@ -33,7 +32,8 @@
 ## 📚 ファイル構成
 
 README.md                  # この説明ファイル
-Architecture_reiji.md      # 日本語版の完全仕様書Architecture_reiji_en.md   # 英語版の完全仕様書 
+Architecture_reiji.md      # 日本語版の完全仕様書
+Architecture_reiji_en.md   # 英語版の完全仕様書 
 
 ---
 
