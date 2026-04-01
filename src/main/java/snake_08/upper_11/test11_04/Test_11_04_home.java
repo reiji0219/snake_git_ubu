@@ -10,10 +10,12 @@ public class Test_11_04_home
           .price( 980 )
           .tax( 1.1 );
 
+      System.out.println( "掛け算   :" + item.getId() );
+
+      item.display();
     });
 
       System.out.println("Hello World_1");
       System.out.println("Hello World_2");
-      System.out.println("Hello World_3");
    }
 }
