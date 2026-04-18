@@ -1,4 +1,4 @@
-package main.java.snake_08.upper_09.test09_30;
+package main.java.snake_08.upper_09.test09_30_end;
 
 import demo_06.Interface;
 
