@@ -1,19 +1,19 @@
-# Architecture of Reiji  
+# Architecture of rei  
 **人格アーキテクチャ / 統合仕様書リポジトリ**
 
-このリポジトリは、Reiji の  
+このリポジトリは、rei の  
 **価値観・対話スタイル・技術観・思考構造** を  
 体系的にまとめた「人格アーキテクチャ」を保存するためのものです。
 
 本リポジトリの中心となるファイルは以下です：
 
-- `Architecture_reiji.md`  
+- `Architecture_rei.md`  
   - 日本語版の統合仕様書（完全版）
-- `Architecture_reiji_en.md`  
+- `Architecture_rei_en.md`  
   - 英語版の統合仕様書（国際版）
 
 これらは、AI との対話を通じて構築された  
-**reijiという人間の“核の構造”を記述したドキュメント**です。
+**reiという人間の“核の構造”を記述したドキュメント**です。
 
 ---
 
@@ -31,19 +31,19 @@
 
 ## 📚 ファイル構成
 
-- Architecture_reiji.md
+- Architecture_rei.md
     - 日本語版の完全仕様書
-- Architecture_reiji_en.md
+- Architecture_rei_en.md
     - 英語版の完全仕様書 
 - README.md 
     - この説明ファイル
 
 ---
 
-## 🧠 Architecture_reiji.md とは？
+## 🧠 Architecture_rei.md とは？
 
 このファイルは、以下の要素を統合した  
-**reijiの“核”を記述したドキュメント**です。
+**reiの“核”を記述したドキュメント**です。
 
 - 対話の姿勢  
 - 技術観（WSL / zsh / vim / 可読性重視）  
@@ -58,7 +58,7 @@ AI に渡すことで、
 
 ---
 
-## 🌍 Architecture_reiji_en.md とは？
+## 🌍 Architecture_rei_en.md とは？
 
 日本語版を忠実に英語化した  
 **国際版の人格アーキテクチャ**です。
@@ -94,7 +94,7 @@ AI に以下のように伝えるだけで、
 
 ## ✨ 作者について
 
-Reiji  
+rei  
 - 誠実さ・構造・尊厳を重視する対話者  
 - 技術と哲学を自然に結びつけるタイプ  
 - 再現性と可読性を最優先する技術者  
