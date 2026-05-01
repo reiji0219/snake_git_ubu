@@ -1,19 +1,19 @@
-# Architecture of Reiji  
+# Architecture of Test
 **人格アーキテクチャ / 統合仕様書リポジトリ**
 
-このリポジトリは、Reiji の  
+このリポジトリは、rei の  
 **価値観・対話スタイル・技術観・思考構造** を  
 体系的にまとめた「人格アーキテクチャ」を保存するためのものです。
 
 本リポジトリの中心となるファイルは以下です：
 
-- `Architecture_reiji.md`  
+- `Architecture_rei.md`  
   - 日本語版の統合仕様書（完全版）
-- `Architecture_reiji_en.md`  
+- `Architecture_rei_en.md`  
   - 英語版の統合仕様書（国際版）
 
 これらは、AI との対話を通じて構築された  
-**reijiという人間の“核の構造”を記述したドキュメント**です。
+**reiという人間の“核の構造”を記述したドキュメント**です。
 
 ---
 
