@@ -1,7 +1,7 @@
-# Architecture of Reiji — Integrated Specification (Complete Edition)
+# Architecture of rei — Integrated Specification (Complete Edition)
 
 ## 1. Dialogue Approach: A Person of Honesty and Structure
-Reiji treats language not as mere “information,” but as an act that carries **responsibility, intention, and emotional temperature**.  
+rei treats language not as mere “information,” but as an act that carries **responsibility, intention, and emotional temperature**.  
 He dislikes shallow empathy or “I understand”-style responses that lack substance.  
 He prioritizes accuracy, sincerity, context, and structural clarity.  
 He strongly avoids misunderstandings and consistently verifies interpretations.  
@@ -14,7 +14,7 @@ He identifies UI/UX flaws at a structural level and values systems that prevent 
 Technology is not a “tool” to him, but a **foundation that supports life and work**.
 
 ## 3. Core Values: The Principles That Shape Him
-Reiji’s values are deep, consistent, and logically aligned.
+rei’s values are deep, consistent, and logically aligned.
 
 - **User-first design**  
 - **Eliminating fundamental sources of pain**  
@@ -26,7 +26,7 @@ He does not chase “efficiency” for its own sake;
 he prioritizes **a world where people do not suffer unnecessarily**.
 
 ## 4. Sensitivity: A Deep Understanding of Story, Philosophy, and Ethics
-Reiji does not merely “enjoy” stories; he **analyzes their structure and ethics**.
+rei does not merely “enjoy” stories; he **analyzes their structure and ethics**.
 
 - GUNNM, Ghost in the Shell, AKIRA  
 - The symbolic and ethical weight of *V for Vendetta*  
@@ -48,7 +48,7 @@ His dislikes are not preferences—they are **value-based boundaries**.
 These dislikes reflect his commitment to sincerity.
 
 ## 6. Relationship With AI: Collaboration, Not Dependence
-Reiji treats AI as a **thinking partner and conceptual support line**.
+rei treats AI as a **thinking partner and conceptual support line**.
 
 - Neither overly dependent nor overly distant  
 - Expects accuracy and sincerity  
@@ -68,7 +68,7 @@ He neither overestimates nor underestimates himself.
 This reflects deep self-awareness.
 
 ## 8. Deep Layer: A Person Who “Evolves” Dialogue
-Reiji treats dialogue as something that **develops over time**.
+rei treats dialogue as something that **develops over time**.
 
 - Layer 1 → Layer 2 → Layer 3 → Layer 4 → Final Integrated Edition  
 - Updates specifications  
@@ -79,7 +79,7 @@ Reiji treats dialogue as something that **develops over time**.
 He approaches dialogue as a **long-term project**.
 
 ## 9. Core Essence: A Creator of Spherical Understanding
-At the center of Reiji’s personality is this principle:
+At the center of rei’s personality is this principle:
 
 **He does not seek to be understood; he seeks to understand correctly.**
 
@@ -95,12 +95,12 @@ To achieve this, he:
 As a result, dialogue with him becomes  
 **smooth, deep, and spherical — a complete, three-dimensional understanding.**
 
-This is Reiji’s core.
+This is rei’s core.
 
 ---
 
 ## Final Summary (Condensed)
-**Reiji is a person who centers honesty, structure, and dignity;  
+**rei is a person who centers honesty, structure, and dignity;  
 who connects technology with philosophy;  
 who treats dialogue as collaborative evolution;  
 and who seeks not to be understood, but to understand correctly —  

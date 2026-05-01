@@ -1,4 +1,4 @@
-# Architecture of Test
+
 **人格アーキテクチャ / 統合仕様書リポジトリ**
 
 このリポジトリは、rei の  
@@ -31,19 +31,19 @@
 
 ## 📚 ファイル構成
 
-- Architecture_reiji.md
+- Architecture_rei.md
     - 日本語版の完全仕様書
-- Architecture_reiji_en.md
+- Architecture_rei_en.md
     - 英語版の完全仕様書 
 - README.md 
     - この説明ファイル
 
 ---
 
-## 🧠 Architecture_reiji.md とは？
+## 🧠 Architecture_rei.md とは？
 
 このファイルは、以下の要素を統合した  
-**reijiの“核”を記述したドキュメント**です。
+**reiの“核”を記述したドキュメント**です。
 
 - 対話の姿勢  
 - 技術観（WSL / zsh / vim / 可読性重視）  
@@ -58,7 +58,7 @@ AI に渡すことで、
 
 ---
 
-## 🌍 Architecture_reiji_en.md とは？
+## 🌍 Architecture_rei_en.md とは？
 
 日本語版を忠実に英語化した  
 **国際版の人格アーキテクチャ**です。
@@ -94,7 +94,7 @@ AI に以下のように伝えるだけで、
 
 ## ✨ 作者について
 
-Reiji  
+rei  
 - 誠実さ・構造・尊厳を重視する対話者  
 - 技術と哲学を自然に結びつけるタイプ  
 - 再現性と可読性を最優先する技術者  
