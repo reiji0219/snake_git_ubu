@@ -1,0 +1,24 @@
+package main.java.snake_08.upper_11.test11_19;
+
+public class Test_11_19_home
+{
+  public static void main( String[] args )
+  {
+    Calc19 calc = new Calc19( "Poly-morphism" );
+
+    Item19.save( item -> {
+      item.id( "掛け算" )
+          .name( "税込み価格" )
+          .price( 980 )
+          .tax( 1.1 )
+          .calc( calc );
+
+      System.out.println( "計算式 :" + item.getId() );
+
+      item.display();
+    });
+
+    System.out.println( "Hello World_1" );
+    System.out.println( "Hello World_2" );
+  }
+}
