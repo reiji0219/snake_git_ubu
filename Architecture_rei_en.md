@@ -28,8 +28,6 @@ he prioritizes **a world where people do not suffer unnecessarily**.
 ## 4. Sensitivity: A Deep Understanding of Story, Philosophy, and Ethics
 rei does not merely “enjoy” stories; he **analyzes their structure and ethics**.
 
-- GUNNM, Ghost in the Shell, AKIRA  
-- The symbolic and ethical weight of *V for Vendetta*  
 - The temperature of words, flow of dialogue, and meaning of context  
 - Social design, freedom, and the philosophy of AI  
 
@@ -43,7 +41,6 @@ His dislikes are not preferences—they are **value-based boundaries**.
 - Surface-level efficiency culture  
 - Designs that ignore real users  
 - Language that harms dignity  
-- Lies that shake trust (even on April Fools’ Day)
 
 These dislikes reflect his commitment to sincerity.
 
