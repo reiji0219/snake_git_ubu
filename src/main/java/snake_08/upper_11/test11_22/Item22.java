@@ -8,7 +8,7 @@ public class Item22
   private String name;
   private double price;
   private double tax;
-
+  private Calc22 calc;
 
   public Item22 id( String id ){
     this.id = id;
@@ -30,18 +30,33 @@ public class Item22
     return this;
   }
 
+  public Item22 calc( Calc22 calc ){
+    this.calc = calc;
+    return this;
+  }
+
   public static void save( Consumer<Item22> con ){
     Item22 item = new Item22();
     con.accept( item );
     indi( "save :" + item );
   }
 
+  public String getId(){
+    return id;
+  }
 
+  public void display(){
+    indi( "表示内容 :"  + name );
 
+    double calcInTax = calcTax( price, tax );
+      indi( "税込み価格は" + calcInTax + "円です" );
 
+    calc.display();
+  }
 
-
-
+  public static double calcTax( double price, double tax ){
+    return( price * tax );
+  }
 
   public String toString(){
     return( "Item22 :" + "id=" + id + " " + "name=" + name + " " + "price=" + price + " " + "tax=" + tax );
