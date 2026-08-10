@@ -1,14 +1,21 @@
 package main.java.snake_08.upper_12.test12_08;
 
+import demo_06.Interface;
 import java.util.function.Consumer;
 
-public class Item08
+public class Item08 implements Interface
 {
+
+  public void execute(){
+    indi( "Lambda" );
+
+  }
+
   private String id;
   private String name;
   private double price;
   private double tax;
-
+  private Calc08 calc;
 
   public Item08 id( String id ){
     this.id = id;
@@ -30,13 +37,20 @@ public class Item08
     return this;
   }
 
+  public Item08 calc( Calc08 calc ){
+    this.calc = calc;
+    return this;
+  }
+
   public static void save( Consumer<Item08> con ){
     Item08 item = new Item08();
     con.accept( item );
     indi( "save :" + item );
   }
 
-
+  public String getId(){
+    return id;
+  }
 
   public void display(){
     indi( "表示内容 :" + name );
@@ -44,6 +58,7 @@ public class Item08
     double calcInTax = calcTax( price, tax );
       indi( "税込み価格は" + calcInTax + "円です" );
 
+    calc.display();
   }
 
   public static double calcTax( double price, double tax ){
