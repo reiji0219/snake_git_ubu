@@ -8,7 +8,7 @@ public class Item09
   private String name;
   private double price;
   private double tax;
-
+  private Calc09 calc;
 
   public Item09 id( String id ){
     this.id = id;
@@ -30,6 +30,11 @@ public class Item09
     return this;
   }
 
+  public Item09 calc( Calc09 calc ){
+    this.calc = calc;
+    return this;
+  }
+
   public static void save( Consumer<Item09> con ){
     Item09 item = new Item09();
     con.accept( item );
@@ -46,7 +51,7 @@ public class Item09
     double calcInTax = calcTax( price, tax );
       indi( "税込み価格は" + calcInTax + "円です" );
 
-    
+    calc.display();
   }
 
   public static double calcTax( double price, double tax ){
