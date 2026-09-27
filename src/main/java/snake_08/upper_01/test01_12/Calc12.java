@@ -1,4 +1,4 @@
-package main.java.snake_08.upper_12.test12_12;
+package main.java.snake_08.upper_01.test01_12;
 
 public class Calc12
 {
